@@ -76,6 +76,9 @@ Recommended workflow:
 - Use u-center to configure the F9P output messages and verify `.UBX` log playback.
 
 
+- [Build and Flash](docs/BUILD_AND_FLASH.md)
+- [F9P Configuration](docs/F9P_CONFIGURATION.md)
+
 ## Recommended F9P Output Messages
 
 For PPK logging, enable on UART 1 (or whichever F9P PORT is connected to STM32 board):
