@@ -27,15 +27,15 @@ Example purchase link: [AliExpress STM32F407ZGT6 board](https://www.aliexpress.u
 
 ### SSD1306 OLED
 
-![SSD1306 OLED module](ssd1306-oled.jpg)
+<img src="ssd1306-oled.jpg" alt="SSD1306 OLED module" width="350">
 
-![SSD1306 OLED pin labels](ssd1306-oled-pins.jpg)
+<img src="ssd1306-oled-pins.jpg" alt="SSD1306 OLED pin labels" width="350">
 
 Example purchase link: [AliExpress SSD1306 OLED](https://www.aliexpress.us/item/3256805954920554.html?spm=a2g0o.order_list.order_list_main.29.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
 ### ZED-F9P Module
 
-![ZED-F9P module](zed-f9p-module.jpg)
+<img src="zed-f9p-module.jpg" alt="ZED-F9P module" width="350"
 
 Example purchase link: [AliExpress ZED-F9P module](https://www.aliexpress.us/item/3256806049727804.html?spm=a2g0o.order_list.order_list_main.131.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
