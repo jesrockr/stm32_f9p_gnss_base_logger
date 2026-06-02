@@ -9,15 +9,22 @@
 - Storage: SD card over SDIO
 
 ## Wiring
+
 USB POWER         --->  ZED-F9P USB-C 
 
 ZED-F9P UART1 TX  --->  STM32 PA10 / USART1 RX
+
 ZED-F9P 3V3       --->  STM32 3V3  
+
 ZED-F9P GND       --->  STM32 GND
 
+
 OLED SCL/SCK      --->  STM32 PB6 / I2C1 SCL
+
 OLED SDA          --->  STM32 PB7 / I2C1 SDA
+
 OLED VDD          --->  STM32 3V3
+
 OLED GND          --->  STM32 GND
 
 KEY NOTES:
