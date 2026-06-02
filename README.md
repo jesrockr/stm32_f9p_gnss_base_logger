@@ -76,6 +76,8 @@ Recommended workflow:
 - Use u-center to configure the F9P output messages and verify `.UBX` log playback.
 
 
+## QUICK START
+
 - [Build and Flash](docs/BUILD_AND_FLASH.md)
 - [F9P Configuration](docs/F9P_CONFIGURATION.md)
 
