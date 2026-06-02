@@ -33,13 +33,13 @@ If connected to the F9P over USB in u-center, remember that USB baud display may
 ## TMODE3
 
 For static base station, recommend
--Mode:  1-Survey in
+- Mode:  1-Survey in
         or
         2-Fixed Mode
         
--Minimum Observation Time:
+- Minimum Observation Time:
         600s (For 10-minute survey-in)
--Required Position Accuracy
+- Required Position Accuracy
         User-defined (Recommend 0.7M)
 
 Please note that STM32 will force F9p to cold-start on each boot, to prevent re-using surveyed-in coordinates.
