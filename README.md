@@ -78,6 +78,7 @@ Recommended workflow:
 - Use FAT32 formatted SD card inserted into onboard STM32 slot.
 - Use u-center to configure the F9P output messages and verify `.UBX` log playback.
 
+The STM32 sends a cold-start command to the F9P at boot. This requires the `PA9 / USART1 TX` connection to the F9P UART RX pin. The purpose is to prevent a portable base from silently reusing stale retained navigation/survey state after being moved. If hot start is needed (for rover configuration) simply disconnect this wire.
 
 ## QUICK START
 
