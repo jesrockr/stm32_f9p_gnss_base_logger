@@ -17,6 +17,9 @@ This project was built around an STM32F407ZGT6 board with SDIO SD card access, F
 
 These are example parts only. Listings may change, and equivalent boards/modules should work if the pinout, voltage levels, and interfaces match.
 
+
+
+
 ### STM32F407ZGT6 Board
 
 ![STM32F407ZGT6 board front](stm32-board-front.jpg)
@@ -25,6 +28,9 @@ These are example parts only. Listings may change, and equivalent boards/modules
 
 Example purchase link: [AliExpress STM32F407ZGT6 board](https://www.aliexpress.us/item/3256809863003361.html?spm=a2g0o.order_list.order_list_main.41.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
+
+
+
 ### SSD1306 OLED
 
 <img src="ssd1306-oled.jpg" alt="SSD1306 OLED module" width="350">
@@ -32,6 +38,9 @@ Example purchase link: [AliExpress STM32F407ZGT6 board](https://www.aliexpress.u
 <img src="ssd1306-oled-pins.jpg" alt="SSD1306 OLED pin labels" width="350">
 
 Example purchase link: [AliExpress SSD1306 OLED](https://www.aliexpress.us/item/3256805954920554.html?spm=a2g0o.order_list.order_list_main.29.49c11802SIBgZa&gatewayAdapt=glo2usa)
+
+
+
 
 ### ZED-F9P Module
 
