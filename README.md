@@ -112,6 +112,8 @@ Warnings:
 
 ## Optional External New-Log Button
 
+It might be of interest to add a button to start/stop recording, by advancing to a new file. This would be for using the f9p when configured as a rover, instead of a static base station. Separate .ubx files could be logged to discriminate between multiple ground control points.
+
 The onboard FK407M2-ZGT6 `KEY` button was not reliable as a readable GPIO during testing. Button-triggered file rotation is disabled by default.
 
 The firmware includes a disabled compile-time option for a future external momentary switch. Wire a switch between a confirmed-free GPIO header pin and GND, then enable the option in `main.c`:
