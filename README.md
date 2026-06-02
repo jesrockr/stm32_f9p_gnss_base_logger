@@ -114,8 +114,9 @@ Warnings:
 - `WARNING OVERRUN`: UART receive/write pipeline fell behind. The log may have dropped bytes.
 - `NO GNSS DATA`: no recent valid `NAV-PVT` packet has been parsed.
 - Fix type flashes if the solution is not acceptable for PPK.
-- "SURVEYING IN" flashes until base position is surveyed-in
-- If SAT=0 and NO FIX, check antenna 
+- `SURVEYING IN` flashes until base position is `SURVEY IN OK`
+- `TIME` is the standard fix type once position is surveyed-in
+- If `SAT=0` and `NO FIX`, check antenna 
 
 ## Optional External New-Log Button
 
