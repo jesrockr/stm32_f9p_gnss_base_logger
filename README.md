@@ -130,7 +130,7 @@ The firmware configures the selected pin with `GPIO_PULLUP`, so the button press
 
 - For PPK, dropped bytes matter. Watch `WARNING OVERRUN`.
 - Use a good SD card and avoid removing power before writes are synced.
-- Keep unnecessary receiver messages disabled.
+- Keep unnecessary receiver messages disabled. We want bandwidth to remain as lean as possible.
 - Confirm logged `.UBX` files open correctly in u-center before relying on field data.
 - Long-duration testing is strongly recommended before survey use.
 
