@@ -43,4 +43,4 @@ GNSS003.UBX
 ...
 ```
 
-This allows multipl
+This allows multiple base sessions on the same SD card without overwriting previous logs.
