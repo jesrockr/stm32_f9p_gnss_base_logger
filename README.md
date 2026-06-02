@@ -6,7 +6,7 @@ This project was built around an STM32F407ZGT6 board with SDIO SD card access, F
 
 ## What It Does
 
-- Logs the incoming F9P UBX byte stream directly to SD card.
+- Logs the incoming F9P UBX byte stream from UART1 directly to SD card.
 - Creates incrementing files such as `GNSS001.UBX`, `GNSS002.UBX`, and so on.
 - Uses UART DMA circular buffering to reduce packet loss risk.
 - Displays SD write status and overrun warnings on OLED.
