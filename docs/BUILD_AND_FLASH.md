@@ -99,7 +99,7 @@ OLED Works But No GNSS Data
   
    -Check:
 
-      `F9P UART baud is 460800.
+      F9P UART baud is 460800.
       STM32 USART1 baud is 460800.
       F9P UART TX is connected to STM32 PA10 / USART1 RX.
       Grounds are connected.
@@ -109,7 +109,7 @@ SD card `Mount Fail` Appears
   
    -Check:
 
-     SD card is inserted.
+      SD card is inserted.
       SD card is FAT/FAT32 formatted.
       Try a different SD card.
       Confirm SDIO pins match the board design.
