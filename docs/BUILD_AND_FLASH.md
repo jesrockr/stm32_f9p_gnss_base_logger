@@ -51,24 +51,24 @@ These build output files are intentionally ignored by Git.
 
 Option 1: Flash From STM32CubeIDE
 
-   Connect the STM32 board to your computer using ST-LINK/SWD.
-In STM32CubeIDE, click the green Run button.
-Select the detected debug probe if prompted.
-STM32CubeIDE will build and flash the firmware.
+- Connect the STM32 board to your computer using ST-LINK/SWD.
+- In STM32CubeIDE, click the green Run button.
+- Select the detected debug probe if prompted.
+- STM32CubeIDE will build and flash the firmware.
 
 Option 2: Flash With STM32CubeProgrammer
 
-   Open STM32CubeProgrammer.
-Connect using ST-LINK.
-Open the compiled firmware file from the Debug/ folder.
-Click Download to flash the STM32.
-First Boot Check
-After flashing:
+- Open STM32CubeProgrammer.
+- Connect using ST-LINK.
+- Open the compiled firmware file from the Debug/ folder.
+- Click Download to flash the STM32.
 
-   Insert a FAT-formatted SD card.
-Connect the ZED-F9P UART output to the STM32.
-Power the logger.
-Watch the OLED boot sequence.
+First Boot Check
+- After flashing:
+- Insert a FAT-formatted SD card.
+- Connect the ZED-F9P UART output to the STM32.
+- Power the logger via USB-C.
+- Watch the OLED boot sequence.
 
 
    Expected boot/logging behavior:
