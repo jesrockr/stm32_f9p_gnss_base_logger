@@ -10,7 +10,7 @@ This project was built around an STM32F407ZGT6 board with SDIO SD card access, F
 - Creates incrementing files such as `GNSS001.UBX`, `GNSS002.UBX`, and so on.
 - Uses UART DMA circular buffering to reduce packet loss risk.
 - Displays SD write status and overrun warnings on OLED.
-- Parses `UBX-NAV-PVT` passively for UTC time, fix type, and satellite count live display.
+- Parses `UBX-NAV-PVT` passively for `UTC time`, `fix type`, and `satellite count` live display.
 - Uses GNSS UTC time for FatFS file timestamps once valid time is available.
 
 ## Hardware Used
