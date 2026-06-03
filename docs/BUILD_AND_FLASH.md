@@ -135,3 +135,5 @@ Log File Does Not Grow
       Poor SD card quality.`
     
 -For PPK, treat any overrun as a serious warning!!!
+
+-By default, each boot sequence triggers a `cold start` on the f9p gnss. You will have to wait for `SURVEY IN: OK` for usable base data. The startup time depends on your `TMODE3` parameters on the f9p.
