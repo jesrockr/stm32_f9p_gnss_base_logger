@@ -1,17 +1,14 @@
 # TODO
 
-## Before First Public Release
+## Eventually
 
 - Add exact board wiring table.
 - Add photos of the assembled logger.
-- Confirm STM32 USART baud and F9P UART baud.
-- Consider raising both to `460800`.
 - Add u-center screenshots or step-by-step F9P config export.
 - Add build/import instructions for STM32CubeIDE.
 - Add SD card formatting recommendation.
 - Add tested file playback workflow in u-center.
 - Add long-duration logging test results.
-- Add license decision.
 
 ## Nice-To-Have Improvements
 
