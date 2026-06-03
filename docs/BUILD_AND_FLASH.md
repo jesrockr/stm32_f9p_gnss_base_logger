@@ -89,8 +89,8 @@ Watch the OLED boot sequence.
       UTC=18:24:11
 
 Troubleshooting
-   OLED Works But No GNSS Data
-   Check:
+  - OLED Works But No GNSS Data
+  - Check:
 
       F9P UART baud is 460800.
       STM32 USART1 baud is 460800.
@@ -98,30 +98,31 @@ Troubleshooting
       Grounds are connected.
       F9P is outputting UBX messages on the UART connected to STM32.
 
-   SD Mount Fails
-   Check:
+  - SD Mount Fails
+  - Check:
 
       SD card is inserted.
       SD card is FAT/FAT32 formatted.
       Try a different SD card.
       Confirm SDIO pins match the board design.
 
-   Log File Does Not Grow
-   Check:
+  - Log File Does Not Grow
+  - Check:
 
       GNSS UART wiring.
       F9P message output configuration.
       Baud rate match.
       OLED warning messages.
 
-   WARNING OVERRUN Appears
-   The logger detected that incoming GNSS bytes may have been dropped.
+  - WARNING OVERRUN Appears
+  - The logger detected that incoming GNSS bytes may have been dropped.
 
-   Possible causes:
+  - Possible causes:
 
       Too many F9P messages enabled.
       UART baud too low.
       SD card write latency too high.
       Measurement rate too high.
       Poor SD card quality.
-For PPK, treat any overrun as a serious warning!!!
+    
+-For PPK, treat any overrun as a serious warning!!!
