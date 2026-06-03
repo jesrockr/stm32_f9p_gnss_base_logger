@@ -103,25 +103,25 @@ OLED Works But No GNSS Data
       STM32 USART1 baud is 460800.
       F9P UART TX is connected to STM32 PA10 / USART1 RX.
       Grounds are connected.
-      F9P is outputting UBX messages on the UART connected to STM32.`
+      F9P is outputting UBX messages on the UART connected to STM32.
 
 SD card `Mount Fail` Appears
   
    -Check:
 
-     `SD card is inserted.
+     SD card is inserted.
       SD card is FAT/FAT32 formatted.
       Try a different SD card.
-      Confirm SDIO pins match the board design.`
+      Confirm SDIO pins match the board design.
 
 Log File Does Not Grow
   
    -Check:
 
-      `GNSS UART wiring.
+      GNSS UART wiring.
       F9P message output configuration.
       Baud rate match.
-      OLED warning messages.`
+      OLED warning messages.
 
 `WARNING OVERRUN` Appears
   - The logger detected that incoming GNSS bytes may have been dropped.
