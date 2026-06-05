@@ -41,7 +41,7 @@ Purchase link: [AliExpress SSD1306 OLED](https://www.aliexpress.us/item/32568059
 
 
 
-## ZED-F9P Module
+## ZED-F9P GNSS Module
 cost: $103.62
 
 <img src="assets/zed-f9p-module.jpg" alt="ZED-F9P module" width="200">
