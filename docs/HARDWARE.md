@@ -27,7 +27,7 @@ OLED SCL/SCK      --->  STM32 PB6 / I2C1 SCL
 
 OLED SDA          --->  STM32 PB7 / I2C1 SDA
 
-OLED VDD          --->  STM32 3V3
+OLED VDD          --->  STM32 5V
 
 OLED GND          --->  STM32 GND
 
