@@ -1,4 +1,4 @@
-# ZED-F9P Configuration Notes
+# ZED-F9P Ucenter Configuration Notes
 
 ## Required Output For PPK
 
