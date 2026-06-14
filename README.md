@@ -130,4 +130,4 @@ Warnings:
 
 ## KEY NOTE
 
-This base currently assumes that you will be surveying-in coordinates each setup. If you wish to set up on known coordinates, that can be done by changing TMODE3 to 'Fixed Position' in Ucenter. IF YOU DO THIS, MAKE SURE YOU SET ANTENNA OFFSET/HEIGHT IN UCENTER TMODE3 AS WELL AS THE KNOWN COORDINATES OF YOUR CONTROL POINT.
+This base currently assumes that you will be surveying-in coordinates each setup. If you wish to set up on known coordinates, for repeatable workflows, that can be done by changing TMODE3 to 'Fixed Position' in Ucenter. IF YOU DO THIS, MAKE SURE YOU SET ANTENNA OFFSET/HEIGHT IN UCENTER TMODE3 AS WELL AS THE KNOWN COORDINATES OF YOUR CONTROL POINT.
