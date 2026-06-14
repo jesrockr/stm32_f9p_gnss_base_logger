@@ -128,3 +128,6 @@ Warnings:
 - Confirm logged `.UBX` files open correctly in u-center before relying on field data.
 - Long-duration testing is strongly recommended before survey use.
 
+## KEY NOTE
+
+This base currently assumes that you will be surveying-in coordinates each setup. If you wish to set up on known coordinates, that can be done by changing TMODE3 to 'Fixed Position' in Ucenter. IF YOU DO THIS, MAKE SURE YOU SET ANTENNA OFFSET/HEIGHT IN UCENTER TMODE3 AS WELL AS THE KNOWN COORDINATES OF YOUR CONTROL POINT.
