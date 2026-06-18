@@ -134,15 +134,15 @@ You are able to set this base up on known coordinates (`FIXED`, more repeatable 
 You are also able to change TMODE3 by creating a BASE.TXT file on the SD card in the STM32, with the following text format:
 
 ## Survey-In
-
+```
 MODE=SURVEY_IN
 
 SVIN_MIN_DUR_S=600
 
 SVIN_ACC_M=0.7
-
+```
 ## Fixed Base
-
+```
 MODE=FIXED
 
 LAT=37.1234568
@@ -154,5 +154,5 @@ MARK_ELEV_M=100.000
 ANTENNA_HEIGHT_M=2.000
 
 FIXED_ACC_M=0.020
-
+```
 The STM32 will read this textfile upon boot and send a command to the F9P.
