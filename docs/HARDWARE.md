@@ -41,17 +41,6 @@ KEY NOTES:
 - SD card connected through board SDIO socket/interface
 - Power each board separately, not advised to share 3v3 rails
 
-
-## Optional External Button
-
-The onboard KEY button was not used in the final firmware because its GPIO mapping was not confirmed reliably.
-
-If a physical "new log file" button is desired, use an external momentary switch:
-
-- One side of switch to a confirmed-free STM32 GPIO.
-- Other side of switch to GND.
-- Configure that GPIO with internal pull-up.
-- Enable `BUTTON_ROTATE_LOG_ENABLED` in firmware.
-
-Avoid pins already used for SDIO, SWD, UART, I2C, or oscillator/debug functions.
-
+>>>Power both boards from the same stable USB source when possible and always
+connect their grounds. Avoid power banks that automatically shut down under
+low load. Do not connect the boards' 3V3 rails together.
