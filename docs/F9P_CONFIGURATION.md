@@ -42,7 +42,7 @@ For static base station, recommend
 - Required Position Accuracy
         User-defined (Recommend 0.7M)
 
->>>THESE CAN BE SET BY CREATING A FILE NAMED BASE.TXT ON THE SD CARD
+>THESE CAN BE SET BY CREATING A FILE NAMED BASE.TXT ON THE SD CARD
 
 
 ## Saving Configuration
