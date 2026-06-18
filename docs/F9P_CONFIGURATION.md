@@ -42,8 +42,8 @@ For static base station, recommend
 - Required Position Accuracy
         User-defined (Recommend 0.7M)
 
-Please note that STM32 will force F9p to cold-start on each boot by default, in order to prevent re-using surveyed-in coordinates after moving the base station.
-If you wish to be able to hot-start for rover/ fixed base, you must remove the STM32 tx --> F9P rx connection!
+>>>THESE CAN BE SET BY CREATING A FILE NAMED BASE.TXT ON THE SD CARD<<<
+
 
 ## Saving Configuration
 
