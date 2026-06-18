@@ -41,6 +41,6 @@ KEY NOTES:
 - SD card connected through board SDIO socket/interface
 
 
->>>Power both boards from the same stable USB source when possible and always
+>Note: Power both boards from the same stable USB source when possible and always
 connect their grounds. Avoid power banks that automatically shut down under
 low load. Do not connect the boards' 3V3 rails together.
