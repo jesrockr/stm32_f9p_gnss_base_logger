@@ -128,6 +128,22 @@ Warnings:
 - Confirm logged `.UBX` files open correctly in u-center before relying on field data.
 - Long-duration testing is strongly recommended before survey use.
 
-## KEY NOTE
+## TMODE3 (BASE COORDINATE CONFIGURATION)
 
-This base currently assumes that you will be surveying-in coordinates each setup. If you wish to set up on known coordinates, for repeatable workflows, that can be done by changing TMODE3 to 'Fixed Position' in Ucenter. IF YOU DO THIS, MAKE SURE YOU SET ANTENNA OFFSET/HEIGHT IN UCENTER TMODE3 AS WELL AS THE KNOWN COORDINATES OF YOUR CONTROL POINT.
+You are able to set this base up on known coordinates (`FIXED`, more repeatable but requires known LAT/LONG/ELEV and ANTENNA HEIGHT) or `SURVEY-IN` your position (requires you to set minimum observation time and minimum accuracy in meters). These can be changed in Ucenter under VIEW-CONFIGURATION VIEW-TMODE3. 
+You are also able to change TMODE3 by creating a BASE.TXT file on the SD card in the STM32, with the following text format:
+
+## Survey-In
+MODE=SURVEY_IN
+SVIN_MIN_DUR_S=600
+SVIN_ACC_M=0.7
+
+## Fixed Base
+MODE=FIXED
+LAT=37.1234568
+LON=-121.1234568
+MARK_ELEV_M=100.000
+ANTENNA_HEIGHT_M=2.000
+FIXED_ACC_M=0.020
+
+The STM32 will read this textfile upon boot and send a command to the F9P.
