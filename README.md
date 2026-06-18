@@ -141,6 +141,7 @@ SVIN_MIN_DUR_S=600
 
 SVIN_ACC_M=0.7
 ```
+### OR
 ## Fixed Base (add this to BASE.TXT on sd card)
 ```
 MODE=FIXED
