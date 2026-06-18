@@ -39,7 +39,7 @@ KEY NOTES:
 - F9P GND to STM32 GND
 - OLED SDA/SCL to STM32 I2C pins
 - SD card connected through board SDIO socket/interface
-- Power each board separately, not advised to share 3v3 rails
+
 
 >>>Power both boards from the same stable USB source when possible and always
 connect their grounds. Avoid power banks that automatically shut down under
