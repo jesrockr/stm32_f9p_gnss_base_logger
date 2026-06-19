@@ -14,10 +14,6 @@ Low-cost STM32-based raw GNSS datalogger for u-blox ZED-F9P receivers. The logge
 
 ## Hardware Used:
 
-Listings may change, and equivalent boards/modules should work if the pinout, voltage levels, and interfaces match.
-
-
-
 
 ## STM32F407ZGT6 Board
 cost: $14.60
