@@ -1,6 +1,6 @@
 # STM32 F9P GNSS Data Logger
 
-Low-cost STM32-based raw GNSS datalogger for u-blox ZED-F9P receivers. The logger records a raw UBX stream to an SD card for later PPK processing, while a small SSD1306 OLED shows live write status, file name, fix state, satellite count, UTC time, and overrun warnings.
+Low-cost STM32-based raw GNSS datalogger for u-blox ZED-F9P receivers. The logger records a raw UBX stream to an SD card for later PPK processing and transmits RTCM corrections for RTK FIX with rover, while a small SSD1306 OLED shows live write status, file name, fix state, satellite count, UTC time, and overrun warnings.
 
 This project was built around an STM32F407ZGT6 board with SDIO SD card access, FatFS, UART DMA receive, and a 128x64 SSD1306 OLED.
 
