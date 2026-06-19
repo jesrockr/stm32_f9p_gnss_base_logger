@@ -125,7 +125,7 @@ Warnings:
 You are able to set this base up on known coordinates (`FIXED`, more repeatable but requires known LAT/LONG/ELEV and ANTENNA HEIGHT) or `SURVEY-IN` your position (requires you to set minimum observation time and minimum accuracy in meters). These can be changed in Ucenter under VIEW-CONFIGURATION VIEW-TMODE3. 
 You are also able to change TMODE3 by creating a BASE.TXT file on the SD card in the STM32, with the following text format:
 
-## Survey-In (add this to BASE.TXT on sd card)
+## SURVEY-IN (add this to the BASE.TXT on sd card)
 ```
 MODE=SURVEY_IN
 
@@ -134,7 +134,7 @@ SVIN_MIN_DUR_S=600
 SVIN_ACC_M=0.7
 ```
 ### OR
-## Fixed (add this to BASE.TXT on sd card)
+## FIXED (add this to the BASE.TXT on sd card)
 ```
 MODE=FIXED
 
