@@ -11,7 +11,8 @@ Low-cost STM32-based raw GNSS datalogger for u-blox ZED-F9P receivers. The logge
 - Displays SD write status and overrun warnings on OLED.
 - Parses `UBX-NAV-PVT` passively for `UTC time`, `fix type`, and `satellite count` live display.
 - Uses GNSS `UTC time` for FatFS file timestamps once valid time is available.
-
+- Appears as USB Storage device on Windows through STM32 usb type c port.
+  
 ## Hardware Used:
 
 
