@@ -66,7 +66,7 @@ https://www.u-blox.com/en/product/u-center
 
 Recommended workflow:
 
-- Use STM32CubeProgrammer to flash the compiled firmware to the STM32 board.
+- Use STM32CubeProgrammer to flash the .ELF file to the STM32 board.
 - `NOTE: BOOT0 jumper must be soldered in order to flash board (via usb type-c), then unsoldered to run program. Recommend install of a switch or two wires to simplify multiple flashes of board. Alternatively, an ST-Link V2 module can be used to flash the board through the debug pins "DIO, CLK, GND, 3v3"`
 - Use FAT32 formatted SD card inserted into onboard STM32 slot.
 - Use u-center to configure the F9P output messages and verify `.UBX` log playback.
