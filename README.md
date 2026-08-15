@@ -46,6 +46,8 @@ Purchase link: [AliExpress ZED-F9P module](https://www.aliexpress.us/item/325680
 
 ## Prerequisites
 
+Download the latest .ELF flash from Assets
+
 Install the STM32 development tools from STMicroelectronics:
 
 - STM32CubeProgrammer
