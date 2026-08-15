@@ -46,7 +46,7 @@ Purchase link: [AliExpress ZED-F9P module](https://www.aliexpress.us/item/325680
 
 ## Prerequisites
 
-Download the latest .ELF flash from Assets
+[Download the latest .elf](https://github.com/jesrockr/stm32_f9p_gnss_base_logger/releases/tag/v1.0.0)
 
 Install the STM32 development tools from STMicroelectronics:
 
