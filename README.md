@@ -44,6 +44,10 @@ cost: $103.62
 
 Purchase link: [AliExpress ZED-F9P module](https://www.aliexpress.us/item/3256806049727804.html?spm=a2g0o.order_list.order_list_main.131.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
+## Holybro Sik Radio (optional)
+
+<img src="assets/sik radio.avif" alt="Sik Radio" width="200">
+
 ## Prerequisites
 
 Download the [latest .elf](https://github.com/jesrockr/stm32_f9p_gnss_base_logger/releases/tag/v1.0.0)
