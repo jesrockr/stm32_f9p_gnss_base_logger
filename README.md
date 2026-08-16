@@ -75,6 +75,7 @@ Recommended workflow:
 
 ## QUICK START
 
+- [Wiring Diagram](assets/BASEWIRINGDIAGRAM.png)
 - [Build and Flash](docs/BUILD_AND_FLASH.md)
 - [F9P Configuration](docs/F9P_CONFIGURATION.md)
 
