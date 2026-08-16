@@ -17,36 +17,38 @@ Low-cost STM32-based raw GNSS datalogger for u-blox ZED-F9P receivers. The logge
 
 
 ## STM32F407ZGT6 Board
-cost: $14.60
+[cost: $14.60](https://www.aliexpress.us/item/3256809863003361.html?spm=a2g0o.order_list.order_list_main.41.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
 <img src="assets/stm32-board-front.jpg" alt="STM32" width="200">
 
 
-Purchase link: [AliExpress STM32F407ZGT6 board](https://www.aliexpress.us/item/3256809863003361.html?spm=a2g0o.order_list.order_list_main.41.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
 
 
 
 ## SSD1306 OLED
-cost: $2.60
+[cost: $2.60](https://www.aliexpress.us/item/3256805954920554.html?spm=a2g0o.order_list.order_list_main.29.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
 <img src="assets/ssd1306-oled.jpg" alt="SSD1306 OLED module" width="200">
 
-Purchase link: [AliExpress SSD1306 OLED](https://www.aliexpress.us/item/3256805954920554.html?spm=a2g0o.order_list.order_list_main.29.49c11802SIBgZa&gatewayAdapt=glo2usa)
+
 
 
 
 
 ## ZED-F9P-01B-01 GNSS 
-cost: $103.62
+[cost: $103.62](https://www.aliexpress.us/item/3256806049727804.html?spm=a2g0o.order_list.order_list_main.131.49c11802SIBgZa&gatewayAdapt=glo2usa)(https://www.aliexpress.us/item/3256806049727804.html?spm=a2g0o.order_list.order_list_main.131.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
 <img src="assets/zed-f9p-module.jpg" alt="ZED-F9P module" width="200">
 
-Purchase link: [AliExpress ZED-F9P module](https://www.aliexpress.us/item/3256806049727804.html?spm=a2g0o.order_list.order_list_main.131.49c11802SIBgZa&gatewayAdapt=glo2usa)
+
 
 ## Holybro Sik Radio (optional)
 
+[cost: $89.00](https://www.aliexpress.us/item/3256812345612252.html?spm=a2g0o.productlist.main.9.2bad4371fgiW8P&algo_pvid=5108629a-dc54-40a4-8ce6-8365ed6b640d&algo_exp_id=5108629a-dc54-40a4-8ce6-8365ed6b640d-8&pdp_ext_f=%7B%22order%22%3A%222%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%2188.77%2188.77%21%21%2188.77%2188.77%21%4021032c8d17868520346163325e0d47%2112000058621449509%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Aeeedf0d3%3Bm03_new_user%3A-29895&curPageLogUid=mKUxOH07K1PG&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005012531927004%7C_p_origin_prod%3A)
+
 <img src="assets/SIK RADIO.avif" alt="Sik Radio" width="200">
+
 
 ## Prerequisites
 
