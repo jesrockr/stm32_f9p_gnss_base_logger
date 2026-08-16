@@ -46,7 +46,7 @@ Purchase link: [AliExpress ZED-F9P module](https://www.aliexpress.us/item/325680
 
 ## Holybro Sik Radio (optional)
 
-<img src="assets/sik radio.avif" alt="Sik Radio" width="200">
+<img src="assets/SIK RADIO.avif" alt="Sik Radio" width="200">
 
 ## Prerequisites
 
