@@ -37,7 +37,7 @@ Low-cost STM32-based raw GNSS datalogger for u-blox ZED-F9P receivers. The logge
 
 
 ## ZED-F9P-01B-01 GNSS 
-[cost: $103.62](https://www.aliexpress.us/item/3256806049727804.html?spm=a2g0o.order_list.order_list_main.131.49c11802SIBgZa&gatewayAdapt=glo2usa)(https://www.aliexpress.us/item/3256806049727804.html?spm=a2g0o.order_list.order_list_main.131.49c11802SIBgZa&gatewayAdapt=glo2usa)
+[cost: $103.62](https://www.aliexpress.us/item/3256806049727804.html?spm=a2g0o.order_list.order_list_main.131.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
 <img src="assets/zed-f9p-module.jpg" alt="ZED-F9P module" width="200">
 
