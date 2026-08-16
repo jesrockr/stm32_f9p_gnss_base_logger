@@ -57,8 +57,8 @@ Download the [latest .elf](https://github.com/jesrockr/stm32_f9p_gnss_base_logge
 Install the STM32 development tools from STMicroelectronics:
 
 - STM32CubeProgrammer
-- STM32CubeMX (developer only)
-- STM32CubeIDE (developer only)
+- STM32CubeMX (optional)
+- STM32CubeIDE (optional)
 
 Download them from the official ST website:
 
